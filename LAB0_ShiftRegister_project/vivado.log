@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Mar  8 08:28:43 2021
+# Process ID: 7866
+# Current directory: /home/nicola/Documents/vivado
+# Command line: vivado
+# Log file: /home/nicola/Documents/vivado/vivado.log
+# Journal file: /home/nicola/Documents/vivado/vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script '/home/nicola/.Xilinx/Vivado/Vivado_init.tcl'
+157 Beta devices matching pattern found, 0 enabled.
+start_gui
+open_project /tmp/LAB0_ShiftRegister_project/LAB0_ShiftRegister_project.xpr
+INFO: [Project 1-313] Project file moved from 'C:/DESD/Project/LAB0_ShiftRegister_project' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'LAB0_ShiftRegister_project.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2020.2/data/ip'.
+INFO: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+update_compile_order -fileset sources_1
+archive_project /tmp/LAB0_ShiftRegister_project.xpr.zip -force -exclude_run_results
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location './.Xil/Vivado-7866-nicolac-lab' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-135] resetting runs for excluding generated files from archive...
+WARNING: [Coretcl 2-105] Run 'synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'synth_1'...
+INFO: [Coretcl 2-133] re-setting run 'impl_1'...
