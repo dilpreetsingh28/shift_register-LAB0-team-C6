@@ -1,3 +1,11 @@
+Assignments for the first lab (Lab0):
 
-Shift_register-lab0-team-6c
 
+
+-Shift register v0
+
+-Shift register v1
+
+-Shift register v2
+
+-PWM
